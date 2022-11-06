@@ -3,7 +3,9 @@ package com.example.demo.core.order;
 import com.example.demo.core.discount.DiscountPolicy;
 import com.example.demo.core.member.Member;
 import com.example.demo.core.member.MemberRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService {
 
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
